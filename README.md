@@ -1,1 +1,1 @@
-# -A-mockup-inspired-by-Apple-s-Vision-Pro
+# A-mockup-inspired-by-Apples-Vision-Pro
