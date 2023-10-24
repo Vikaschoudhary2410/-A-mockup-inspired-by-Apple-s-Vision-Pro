@@ -1,0 +1,1677 @@
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+#main {
+	position: relative;
+	overflow: hidden;
+	color: #fff;
+}
+
+#page {
+	height: 120vh;
+	width: 100vw;
+	background-color: #000;
+	position: relative;
+}
+
+#page > nav {
+	height: 10vh;
+	width: 85vw;
+	left: 50%;
+	/* background-color: #fff; */
+	position: absolute;
+	transform: translateX(-50%);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 20px;
+	z-index: 10;
+}
+
+#page > nav > h1 {
+	font-family: sans-serif;
+	font-weight: 700;
+	color: #fff;
+}
+
+#page > nav > button {
+	padding: 7px 20px;
+	border: none;
+	border-radius: 50px;
+	background-color: #fff;
+	color: #000;
+}
+#page > video {
+	height: 120vh;
+	width: 100%;
+	position: absolute;
+	object-fit: cover;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 8;
+}
+
+#page-bottom {
+	position: absolute;
+	z-index: 10;
+	height: 150px;
+	width: 450px;
+	/* background-color: aqua; */
+	bottom: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+#page-bottom > h1 {
+	font-family: sans-serif;
+	font-weight: 700;
+	color: grey;
+	margin-bottom: 15px;
+	font-size: 23px;
+}
+#page-bottom > img {
+	height: 75px;
+}
+#page1 {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	background-color: #000;
+}
+#page1 > video {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+#page1 > h1 {
+	position: absolute;
+	font-size: 50px;
+	color: #fff;
+	left: 50%;
+	bottom: 20%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+	font-family: sans-serif;
+}
+
+#page2 {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	background-color: #000;
+}
+
+#page2 > video {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+#page2 > h1 {
+	position: absolute;
+	font-size: 50px;
+	color: #fff;
+	left: 50%;
+	bottom: 20%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+	font-family: sans-serif;
+}
+
+#page3 {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	background-color: #000;
+}
+
+#page3 > video {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+#page3 > h1 {
+	position: absolute;
+	font-size: 50px;
+	color: #fff;
+	left: 50%;
+	bottom: 20%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+	font-family: sans-serif;
+}
+
+#page4 {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	background-color: #000;
+}
+
+#page4 > video {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+#page4 > h1 {
+	position: absolute;
+	font-size: 50px;
+	color: #fff;
+	left: 50%;
+	bottom: 20%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+	font-family: sans-serif;
+}
+
+#page5 {
+	min-height: 150vh;
+	width: 100vw;
+	background-color: #fff;
+	position: relative;
+}
+
+#page5 > img {
+	height: 55vh;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+#page5-upper {
+	height: 300px;
+	width: 500px;
+	position: absolute;
+	z-index: 10;
+	/* background-color: green; */
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#page5-upper > img {
+	height: 10vh;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#page5-upper-bottom {
+	height: 150px;
+	width: 500px;
+	bottom: 5%;
+	position: absolute;
+	/* background-color: #000; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#page5-upper-bottom > a {
+	text-decoration: none;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: 600;
+	color: rgb(246, 66, 0);
+}
+
+#page5-upper-bottom > i {
+	height: 50px;
+	width: 50px;
+	color: rgb(246, 66, 0);
+}
+
+#page5-upper-bottom > h1 {
+	margin-top: 15px;
+	font-size: 20px;
+	font-family: serif;
+	color: rgb(135, 126, 126);
+}
+
+#page5 > button {
+	height: 9vh;
+	width: 20vw;
+	background-color: #fff;
+	color: #000;
+	border: 3px solid #000;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: sans-serif;
+	position: absolute;
+	bottom: 13%;
+	margin-top: 10vh;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 50px;
+	transition: all ease 0.5s;
+}
+
+#page5 > button:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+#page6 {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	background-color: #000;
+}
+
+#page6 > video {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+#page6 > h1 {
+	position: absolute;
+	font-size: 50px;
+	color: #fff;
+	left: 50%;
+	bottom: 20%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+	font-family: sans-serif;
+}
+
+#page7 {
+	height: 80vh;
+	width: 100vw;
+	background-color: #fff;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+#page7-right {
+	position: absolute;
+	top: 15%;
+	left: 10%;
+}
+
+#page7-right > h1 {
+	color: #000;
+	font-size: 35px;
+	font-family: sans-serif;
+}
+
+#page7-left {
+	position: absolute;
+	top: 15%;
+	left: 45%;
+	width: 600px;
+}
+
+#page7-left > p {
+	color: rgb(150, 142, 142);
+	font-family: serif;
+	font-size: 15px;
+	font-weight: 200;
+	font-size: 25px;
+	font-weight: 550;
+}
+
+#page7-left > button {
+	height: 9vh;
+	width: 25vw;
+	background-color: orangered;
+	color: #fff;
+	border: 3px solid orangered;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: sans-serif;
+	position: absolute;
+	margin-top: 8%;
+	left: 5%;
+	border-radius: 50px;
+	transition: all ease 0.5s;
+}
+
+#page7-left > button:hover {
+	background-color: #ff6a19;
+	cursor: pointer;
+}
+
+#page8 {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	background-color: #000;
+}
+
+#page8 > video {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+#page8 > h1 {
+	position: absolute;
+	font-size: 50px;
+	color: #fff;
+	left: 50%;
+	bottom: 20%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+	font-family: sans-serif;
+}
+
+#page8 > h2 {
+	position: absolute;
+	font-size: 20px;
+	color: #fff;
+	left: 50%;
+	bottom: 40%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+	font-family: sans-serif;
+}
+
+#page9 {
+	height: 80vh;
+	width: 100vw;
+	background-color: #fff;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+#page9-right {
+	position: absolute;
+	top: 15%;
+	left: 10%;
+}
+
+#page9-right > h1 {
+	color: #000;
+	font-size: 35px;
+	font-family: sans-serif;
+}
+
+#page9-left {
+	position: absolute;
+	top: 15%;
+	left: 45%;
+	width: 600px;
+}
+
+#page9-left > p {
+	color: rgb(150, 142, 142);
+	font-family: serif;
+	font-size: 15px;
+	font-weight: 200;
+	font-size: 25px;
+	font-weight: 550;
+}
+
+#page9-left > button {
+	height: 9vh;
+	width: 30vw;
+	background-color: orangered;
+	color: #fff;
+	border: 3px solid orangered;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: sans-serif;
+	position: absolute;
+	margin-top: 8%;
+	left: 5%;
+	border-radius: 50px;
+	transition: all ease 0.5s;
+}
+
+#page9-left > button:hover {
+	background-color: #ff6a19;
+	cursor: pointer;
+}
+
+#page10 {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	background-color: #000;
+}
+
+#page10 > video {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+#page10 > h1 {
+	position: absolute;
+	font-size: 50px;
+	color: #fff;
+	left: 50%;
+	bottom: 20%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+	font-family: sans-serif;
+}
+
+#page10 > h2 {
+	position: absolute;
+	font-size: 20px;
+	color: #fff;
+	left: 50%;
+	bottom: 40%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+	font-family: sans-serif;
+}
+
+#page11 {
+	height: 80vh;
+	width: 100vw;
+	background-color: #fff;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+#page11-right {
+	position: absolute;
+	top: 15%;
+	left: 10%;
+}
+
+#page11-right > h1 {
+	color: #000;
+	font-size: 35px;
+	font-family: sans-serif;
+}
+
+#page11-left {
+	position: absolute;
+	top: 15%;
+	left: 45%;
+	width: 600px;
+}
+
+#page11-left > p {
+	color: rgb(150, 142, 142);
+	font-family: serif;
+	font-size: 15px;
+	font-weight: 200;
+	font-size: 25px;
+	font-weight: 550;
+}
+
+#page11-left > button {
+	height: 9vh;
+	width: 32vw;
+	background-color: orangered;
+	color: #fff;
+	border: 3px solid orangered;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: sans-serif;
+	position: absolute;
+	margin-top: 8%;
+	left: 5%;
+	border-radius: 50px;
+	transition: all ease 0.5s;
+}
+
+#page11-left > button:hover {
+	background-color: #ff6a19;
+	cursor: pointer;
+}
+
+#page12 {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	background-color: #000;
+}
+
+#page12 > video {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+#page12 > h1 {
+	position: absolute;
+	font-size: 50px;
+	color: #fff;
+	left: 50%;
+	bottom: 20%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+	font-family: sans-serif;
+}
+
+#page12 > h2 {
+	position: absolute;
+	font-size: 20px;
+	color: #fff;
+	left: 50%;
+	bottom: 40%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+	font-family: sans-serif;
+}
+
+#page13 {
+	height: 80vh;
+	width: 100vw;
+	background-color: #fff;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+#page13-right {
+	position: absolute;
+	top: 15%;
+	left: 10%;
+}
+
+#page13-right > h1 {
+	color: #000;
+	font-size: 35px;
+	font-family: sans-serif;
+}
+
+#page13-left {
+	position: absolute;
+	top: 15%;
+	left: 45%;
+	width: 600px;
+}
+
+#page13-left > p {
+	color: rgb(150, 142, 142);
+	font-family: serif;
+	font-size: 15px;
+	font-weight: 200;
+	font-size: 25px;
+	font-weight: 550;
+}
+
+#page13-left > button {
+	height: 9vh;
+	width: 30vw;
+	background-color: orangered;
+	color: #fff;
+	border: 3px solid orangered;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: sans-serif;
+	position: absolute;
+	margin-top: 8%;
+	left: 5%;
+	border-radius: 50px;
+	transition: all ease 0.5s;
+}
+
+#page13-left > button:hover {
+	background-color: #ff6a19;
+	cursor: pointer;
+}
+
+#page14 {
+	height: 100vh;
+	width: 100vw;
+	background-color: #f5f5f7;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: black;
+}
+
+#page14 > h4 {
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 25px;
+	top: 25%;
+}
+
+#page14 > h1 {
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 75px;
+	top: 30%;
+}
+
+#page14 > p {
+	width: 62%;
+	top: 50%;
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 23px;
+	color: grey;
+	text-align: center;
+	font-weight: 600;
+	line-height: 35px;
+}
+
+#page15 {
+	height: 100vh;
+	width: 100vw;
+	background-color: #f5f5f7;
+}
+
+#page15 > canvas {
+	position: relative;
+	max-width: 100vw;
+	max-height: 100vh;
+	z-index: 99;
+}
+
+#page16 {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	background-color: #f5f5f7;
+}
+
+#page16 > p {
+	width: 15vw;
+	color: grey;
+	position: absolute;
+	top: 20%;
+	left: 8%;
+	font-family: sans-serif;
+	font-size: 3vh;
+	z-index: 99;
+}
+
+#page16 > p > span {
+	color: #000;
+	font-size: 3vh;
+}
+
+#page17 {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	background-color: #f5f5f7;
+}
+
+#page17 > p {
+	width: 15vw;
+	color: grey;
+	position: absolute;
+	top: 20%;
+	left: 78%;
+	font-family: sans-serif;
+	font-size: 3vh;
+	z-index: 99;
+}
+
+#page17 > p > span {
+	color: #000;
+	font-size: 3vh;
+}
+
+#page18 {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	background-color: #f5f5f7;
+}
+
+#page18 > p {
+	width: 15vw;
+	color: grey;
+	position: absolute;
+	top: 20%;
+	left: 8%;
+	font-family: sans-serif;
+	font-size: 3vh;
+	z-index: 99;
+}
+
+#page18 > p > span {
+	color: #000;
+	font-size: 3vh;
+}
+
+#page19 {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	background-color: #f5f5f7;
+}
+
+#page19 > p {
+	width: 15vw;
+	color: grey;
+	position: absolute;
+	top: 20%;
+	left: 8%;
+	font-family: sans-serif;
+	font-size: 3vh;
+	z-index: 99;
+}
+
+#page19 > p > span {
+	color: #000;
+	font-size: 3vh;
+}
+
+#page20 {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	background-color: #f5f5f7;
+}
+
+#page20 > p {
+	width: 15vw;
+	color: grey;
+	position: absolute;
+	top: 20%;
+	left: 78%;
+	font-family: sans-serif;
+	font-size: 3vh;
+	z-index: 99;
+}
+
+#page20 > p > span {
+	color: #000;
+	font-size: 3vh;
+}
+
+#page21 {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	background-color: #f5f5f7;
+}
+
+#page21 > p {
+	width: 15vw;
+	color: grey;
+	position: absolute;
+	top: 20%;
+	left: 8%;
+	font-family: sans-serif;
+	font-size: 3vh;
+	z-index: 99;
+}
+
+#page21 > p > span {
+	color: #000;
+	font-size: 3vh;
+}
+
+#page22 {
+	height: 110vh;
+	width: 100vw;
+	background-color: #fff;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.page22-right {
+	height: 90%;
+	width: 45%;
+	position: relative;
+	background-color: red;
+	background-image: url("https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_top__k3b8lzqd1l2m_large_2x.jpg");
+	background-size: cover;
+}
+
+.page22-left {
+	height: 90%;
+	width: 45%;
+	position: relative;
+	background-color: blue;
+	overflow: hidden;
+	background-image: url("https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_side__gm4agomrwl2e_large_2x.jpg");
+	background-size: cover;
+}
+
+#page23 {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#page23center {
+	height: 96%;
+	width: 99%;
+	overflow: hidden;
+}
+
+#page23center > video {
+	width: 100%;
+	height: 100%;
+}
+
+#page24 {
+	height: 220vh;
+	width: 100vw;
+	position: relative;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#page24 > p {
+	position: absolute;
+	top: 17%;
+	text-align: center;
+	font-family: sans-serif;
+	color: rgb(151, 140, 140);
+	font-size: 3vh;
+	width: 49%;
+	left: 50%;
+	transform: translateX(-50%);
+	font-weight: 600;
+	line-height: 25px;
+}
+
+#page24 > p > span {
+	color: #000;
+	font-size: 3vh;
+	font-weight: 600;
+}
+
+#page24 > img {
+	position: absolute;
+	height: 150vh;
+	top: 32%;
+}
+
+#page24 > button {
+	height: 9vh;
+	width: 28vw;
+	background-color: orangered;
+	color: #fff;
+	border: 3px solid orangered;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: sans-serif;
+	position: absolute;
+	bottom: 8%;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 50px;
+	transition: all ease 0.5s;
+}
+
+#page24 > button:hover {
+	background-color: #ff6a19;
+	cursor: pointer;
+}
+
+#page25 {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	background-color: #000;
+}
+
+#page25 > video {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+#page25 > h1 {
+	position: absolute;
+	font-size: 50px;
+	color: #fff;
+	left: 50%;
+	bottom: 36%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+	font-family: sans-serif;
+}
+
+#page25 > h2 {
+	position: absolute;
+	font-size: 28px;
+	color: #fff;
+	left: 50%;
+	bottom: 45%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+	font-family: sans-serif;
+}
+
+#page26 {
+	height: 60vh;
+	width: 100vw;
+	background-color: #f5f5f7;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+#page26-right {
+	position: absolute;
+	top: 15%;
+	left: 10%;
+}
+
+#page26-right > h1 {
+	color: #000;
+	font-size: 35px;
+	font-family: sans-serif;
+}
+
+#page26-left {
+	position: absolute;
+	top: 15%;
+	left: 45%;
+	width: 600px;
+}
+
+#page26-left > p {
+	color: rgb(150, 142, 142);
+	font-family: serif;
+	font-size: 15px;
+	font-weight: 200;
+	font-size: 25px;
+	font-weight: 550;
+}
+
+#page27 {
+	height: 110vh;
+	width: 100vw;
+	background-color: #fff;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.page27-right {
+	height: 90%;
+	width: 45%;
+	position: relative;
+	/* background-color: red; */
+	background-image: url("https://www.apple.com/v/apple-vision-pro/a/images/overview/visionos/scaling_ui__gosi0305um2y_large_2x.jpg");
+	background-size: cover;
+}
+
+.page27-left {
+	height: 90%;
+	width: 45%;
+	position: relative;
+	/* background-color: blue; */
+	overflow: hidden;
+	background-image: url("https://www.apple.com/v/apple-vision-pro/a/images/overview/visionos/spatial_interaction__br11mf88bzxy_large_2x.jpg");
+	background-size: cover;
+}
+
+#page28 {
+	height: 50vh;
+	width: 100vw;
+	background-color: #f5f5f7;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+#page28-right {
+	position: absolute;
+	top: 15%;
+	left: 10%;
+}
+
+#page28-right > h1 {
+	color: #000;
+	font-size: 35px;
+	font-family: sans-serif;
+}
+
+#page28-left {
+	position: absolute;
+	top: 15%;
+	left: 45%;
+	width: 600px;
+}
+
+#page28-left > p {
+	color: rgb(150, 142, 142);
+	font-family: serif;
+	font-size: 15px;
+	font-weight: 200;
+	font-size: 25px;
+	font-weight: 550;
+}
+.page29 {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+}
+
+.page29 > img {
+	height: 100%;
+	width: 100%;
+}
+
+#page30 {
+	height: 60vh;
+	width: 100vw;
+	background-color: #f5f5f7;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+#page30-right {
+	position: absolute;
+	top: 15%;
+	left: 10%;
+}
+
+#page30-right > h1 {
+	color: #000;
+	font-size: 35px;
+	font-family: sans-serif;
+}
+
+#page30-left {
+	position: absolute;
+	top: 15%;
+	left: 45%;
+	width: 600px;
+}
+
+#page30-left > p {
+	color: rgb(150, 142, 142);
+	font-family: serif;
+	font-size: 15px;
+	font-weight: 200;
+	font-size: 25px;
+	font-weight: 550;
+}
+
+#page31 {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	background-color: #f5f5f7;
+}
+
+#page31 > img {
+	position: absolute;
+	height: 96%;
+	width: 96%;
+	top: 2%;
+	left: 2%;
+}
+
+#page32 {
+	height: 80vh;
+	width: 100vw;
+	background-color: #fff;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+#page32-right {
+	position: absolute;
+	top: 15%;
+	left: 10%;
+}
+
+#page32-right > h1 {
+	color: #000;
+	font-size: 35px;
+	font-family: sans-serif;
+}
+
+#page32-left {
+	position: absolute;
+	top: 15%;
+	left: 45%;
+	width: 600px;
+}
+
+#page32-left > p {
+	color: rgb(150, 142, 142);
+	font-family: serif;
+	font-size: 15px;
+	font-weight: 200;
+	font-size: 25px;
+	font-weight: 550;
+}
+
+#page32-left > button {
+	height: 9vh;
+	width: 28vw;
+	background-color: orangered;
+	color: #fff;
+	border: 3px solid orangered;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: sans-serif;
+	position: absolute;
+	margin-top: 8%;
+	left: 5%;
+	border-radius: 50px;
+	transition: all ease 0.5s;
+}
+
+#page32-left > button:hover {
+	background-color: #ff6a19;
+	cursor: pointer;
+}
+
+#page33 {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	background-color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#page33 > h3 {
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 4vh;
+	color: #fff;
+	top: 18%;
+}
+
+#page33 > h1 {
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 11vh;
+	color: #fff;
+	top: 25%;
+}
+
+#page33 > p {
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 4vh;
+	color: grey;
+	top: 58%;
+	width: 66%;
+	text-align: center;
+	font-weight: 500;
+}
+
+#page33 > p > span {
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 4vh;
+	font-weight: 500;
+}
+
+#page34 {
+	position: relative;
+	height: 85vh;
+	width: 100vw;
+	background-color: #000;
+	object-fit: cover;
+}
+
+#page34 > img {
+	position: absolute;
+	height: 85vh;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#page35 {
+	height: 50vh;
+	width: 100vw;
+	background-color: #000;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#page35 > h1 {
+	position: absolute;
+	top: 15%;
+	font-family: sans-serif;
+	font-size: 5vh;
+	color: #fff;
+}
+
+#page35 > p {
+	position: absolute;
+	top: 40%;
+	font-family: sans-serif;
+	font-size: 3vh;
+	color: grey;
+	font-weight: 600;
+	width: 53%;
+	text-align: center;
+	line-height: 29px;
+}
+
+#page35 > p > span {
+	font-family: sans-serif;
+	font-size: 3vh;
+	color: #fff;
+	font-weight: 600;
+}
+
+#page36 {
+	height: 160vh;
+	width: 100vw;
+	position: relative;
+	background-color: #000;
+}
+
+#page36 > video {
+	height: 100vh;
+	width: 100%;
+}
+
+#page36 > h1 {
+	position: absolute;
+	top: 50%;
+	left: 55%;
+	font-family: sans-serif;
+	font-size: 5vh;
+	color: #fff;
+}
+
+#page36 > p {
+	position: absolute;
+	top: 60%;
+	left: 55%;
+	font-family: sans-serif;
+	font-size: 21px;
+	color: grey;
+	width: 35vw;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+#page36 > p > span {
+	font-family: sans-serif;
+	font-size: 23px;
+	color: #fff;
+	font-weight: 600;
+}
+
+#page37 {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	background-color: #000;
+}
+#page37 > #troff {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	width: 50%;
+	z-index: 9;
+}
+#page37 > #tron {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	width: 50%;
+}
+
+#page38 {
+	height: 50vh;
+	width: 100vw;
+	background-color: #000;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#page38 > h1 {
+	position: absolute;
+	top: 15%;
+	font-family: sans-serif;
+	font-size: 5vh;
+	color: #fff;
+}
+
+#page38 > p {
+	position: absolute;
+	top: 40%;
+	font-family: sans-serif;
+	font-size: 3vh;
+	color: grey;
+	font-weight: 600;
+	width: 53%;
+	text-align: center;
+	line-height: 29px;
+}
+
+#page38 > p > span {
+	font-family: sans-serif;
+	font-size: 3vh;
+	color: #fff;
+	font-weight: 600;
+}
+
+#page39 {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	background-color: #000;
+}
+#page39 > #snroff {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	width: 50%;
+	z-index: 9;
+}
+#page39 > #snron {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	width: 50%;
+}
+
+#page40 {
+	height: 50vh;
+	width: 100vw;
+	background-color: #000;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#page40 > h1 {
+	position: absolute;
+	top: 15%;
+	font-family: sans-serif;
+	font-size: 5vh;
+	color: #fff;
+}
+
+#page40 > p {
+	position: absolute;
+	top: 40%;
+	font-family: sans-serif;
+	font-size: 3vh;
+	color: grey;
+	font-weight: 600;
+	width: 53%;
+	text-align: center;
+	line-height: 29px;
+}
+
+#page40 > p > span {
+	font-family: sans-serif;
+	font-size: 3vh;
+	color: #fff;
+	font-weight: 600;
+}
+
+#page41 {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	background-color: #000;
+}
+#page41 > img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	opacity: 0;
+}
+
+#page42 {
+	height: 100vh;
+	width: 100vw;
+	background-color: #000;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#page42 > h1 {
+	position: absolute;
+	top: 15%;
+	font-family: sans-serif;
+	font-size: 5vh;
+	color: #fff;
+}
+
+#page42 > p {
+	position: absolute;
+	top: 40%;
+	font-family: sans-serif;
+	font-size: 3vh;
+	color: grey;
+	font-weight: 600;
+	width: 53%;
+	text-align: center;
+	line-height: 29px;
+}
+
+#page42 > p > span {
+	font-family: sans-serif;
+	font-size: 3vh;
+	color: #fff;
+	font-weight: 600;
+}
+
+#page42 > button {
+	height: 9vh;
+	width: 28vw;
+	background-color: #fff;
+	color: #000;
+	border: 3px solid #fff;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: sans-serif;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 50px;
+	transition: all ease 0.5s;
+	bottom: 10%;
+}
+
+#page43 {
+	height: 120vh;
+	width: 100vw;
+	position: relative;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#page43 > h3 {
+	font-family: sans-serif;
+	font-size: 4vh;
+	position: absolute;
+	top: 15%;
+	color: #000;
+}
+
+#page43 > h1 {
+	font-size: 10vh;
+	font-family: sans-serif;
+	position: absolute;
+	top: 19%;
+	color: #000;
+	text-align: center;
+}
+
+#page43 > p {
+	position: absolute;
+	top: 50%;
+	width: 60%;
+	font-family: sans-serif;
+	font-size: 3vh;
+	font-weight: 600;
+	color: grey;
+	line-height: 30px;
+	text-align: center;
+}
+
+#page43 > p > span {
+	font-family: sans-serif;
+	font-size: 3vh;
+	font-weight: 600;
+	color: #000;
+}
+
+#page43 > button {
+	height: 9vh;
+	width: 35vw;
+	background-color: orangered;
+	color: #fff;
+	border: 3px solid orangered;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: sans-serif;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 50px;
+	transition: all ease 0.5s;
+	bottom: 15%;
+}
+
+#page43 > button:hover {
+	background-color: #ff6a19;
+	cursor: pointer;
+}
+
+#page44 {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#page44-left {
+	width: 45%;
+	height: 90%;
+	position: relative;
+	background-color: #f5f5f7;
+	justify-content: center;
+	text-align: center;
+}
+
+#page44-left > h1 {
+	font-size: 8vh;
+	color: #000;
+	font-family: sans-serif;
+	position: absolute;
+	text-align: left;
+	top: 20%;
+	left: 19%;
+}
+
+#page44-left > h3 {
+	width: 30vh;
+	font-size: 4vh;
+	color: grey;
+	font-family: sans-serif;
+	position: absolute;
+	left: 20%;
+	top: 50%;
+	white-space: nowrap;
+}
+
+#page44-right {
+	width: 45%;
+	height: 90%;
+	position: relative;
+	/* background-color: blue; */
+	background-image: url("https://www.apple.com/v/apple-vision-pro/a/images/overview/routers/ar_tile__que64jqs2t2e_large_2x.jpg");
+	background-size: cover;
+}
+
+#page45 {
+	height: 100vh;
+	width: 100vw;
+	background-color: #f5f5f7;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#page45 > img {
+	position: absolute;
+	height: 25%;
+	top: 5%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#page45 > h1 {
+	position: absolute;
+	top: 35%;
+	color: #000;
+	font-size: 7vh;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+#page45 > p {
+	width: 60%;
+	position: absolute;
+	top: 55%;
+	font-size: 4vh;
+	font-family: sans-serif;
+	color: #000;
+	text-align: center;
+}
+
+#page45 > a {
+	text-decoration: none;
+	color: rgb(31, 104, 144);
+	position: absolute;
+	bottom: 5%;
+	font-family: sans-serif;
+	font-size: 4vh;
+}
